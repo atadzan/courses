@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
+	"unicode/utf8"
 )
 
 func main() {
-	minimumNumber()
+	//var s = "hello"
+	var g = "приве"
+	fmt.Println(utf8.RuneCountInString(g))
+	//minimumNumber()
 }
 
 /*
